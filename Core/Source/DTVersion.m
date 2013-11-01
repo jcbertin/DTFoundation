@@ -8,6 +8,10 @@
 
 #import "DTVersion.h"
 
+#if TARGET_ATV
+#import "UIDevice.h" // For UIDevice
+#endif
+
 @implementation DTVersion
 
 #pragma mark Creating Versions
